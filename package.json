@@ -1,0 +1,38 @@
+{
+  "name": "editorjs-metadata-table-plugin",
+  "version": "1.0.7",
+  "description": "A tool for adding tabular metadata to text",
+  "repository": "https://github.com/alirezatav/editorjs-metadata-table",
+  "author": {
+    "name": "Alireza Tavasoli",
+    "email": "alirezat92@gmail.com"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "license": "MIT",
+  "private": false,
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "keywords": [
+    "editorjs",
+    "metadata",
+    "table",
+    "hint",
+    "editor"
+  ]
+}
